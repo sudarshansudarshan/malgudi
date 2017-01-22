@@ -1,0 +1,60 @@
+.quote{
+  text-align:right;
+  font-family: 'montez';font-size: 30px;
+}
+
+@font-face{
+  font-family: 'montez';
+  src:url('montez.ttf');
+}
+
+@font-face{
+  font-family: 'chewy';
+  src:url('chewy.ttf');
+}
+
+body {
+  margin-right: 300px;
+  margin-left: 300px;
+	background-color: #f9f9f9;
+  border-style: groove;
+  border:  1 px solid black;
+}
+
+p {
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding-left: 45px;
+    padding-right: 45px; 
+    text-decoration: none;
+  font-family: 'chewy';font-size: 15px;
+}
+
+
+li a:hover {
+	border-style : double;
+    border-width : 10 px;
+    border-color: blue;
+}
+
+
