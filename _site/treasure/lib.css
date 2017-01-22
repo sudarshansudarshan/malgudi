@@ -1,0 +1,78 @@
+.quote{
+  text-align:right;
+  font-family: 'montez';font-size: 30px;
+}
+
+@font-face{
+  font-family: 'lato-regular';
+  src:url('lato-regular.ttf');
+}
+@font-face{
+  font-family: 'inconsolata-regular';
+  src:url('inconsolata-regular');
+}
+@font-face{
+  font-family: 'merriweather-regular';
+  src:url('merriweather-regular.ttf');
+}
+
+@font-face{
+  font-family: 'merriweather-bold';
+  src:url('merriweather-bold.ttf');
+}
+@font-face{
+  font-family: 'montez';
+  src:url('montez.ttf');
+}
+
+@font-face{
+  font-family: 'chewy';
+  src:url('chewy.ttf');
+}
+
+body {
+  margin-right: 300px;
+  margin-left: 300px;
+	background-color: #f9f9f9;
+  border-style: groove;
+  border:  1 px solid black;
+}
+
+p {
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: justify;
+  font-family: 'lato-regular';font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 35px; 
+    text-decoration: none;
+  font-family: 'merriweather-bold';font-size: 15px;font-weight: bold;
+}
+
+
+li a:hover {
+	border-style : double;
+    border-width : 10 px;
+    border-color: blue;
+}
+
+
