@@ -31,8 +31,8 @@
 }
 
 @font-face{
-  font-family: 'cherry';
-  src:url('cherr.ttf');
+  font-family: ‘CherryCreamSoda’;
+  src:url('CherryCreamSoda.ttf');
 }
 
 
@@ -71,7 +71,7 @@ li a {
     padding-left: 35px;
     padding-right: 35px; 
     text-decoration: none;
-  font-family: ‘cherry';font-size: 15px;font-weight: bold;
+  font-family: ‘CherryCreamSoda’;
 }
 
 
