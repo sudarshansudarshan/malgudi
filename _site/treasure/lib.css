@@ -30,6 +30,12 @@
   src:url('chewy.ttf');
 }
 
+@font-face{
+  font-family: 'cherry';
+  src:url('cherr.ttf');
+}
+
+
 body {
   margin-right: 300px;
   margin-left: 300px;
@@ -65,7 +71,7 @@ li a {
     padding-left: 35px;
     padding-right: 35px; 
     text-decoration: none;
-  font-family: 'merriweather-bold';font-size: 15px;font-weight: bold;
+  font-family: ‘cherry';font-size: 15px;font-weight: bold;
 }
 
 
